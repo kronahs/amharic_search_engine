@@ -70,8 +70,8 @@ for rank, (doc_id, similarity) in enumerate(top_25_results, start=1):
     # Print debugging information
     print(f"Rank {rank}: Document {doc_id} (Cosine Similarity: {similarity:.4f})")
     print(f"Dot Product: {dot_product}")
-    print(f"Norm Query: {norm_query}")
-    print(f"Norm Document: {norm_doc}")
+    print(f"Query: {norm_query}")
+    print(f"Document: {norm_doc}")
 
     print(document)
     print('=' * 40)
