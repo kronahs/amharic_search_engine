@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="watchlist_app.models.Movie.objects" />
+          <option value="watchlist_app.models.Movie.DoesNotExist" />
+          <option value="watchlist_app.models.WatchList.objects" />
+          <option value="watchlist_app.models.WatchList.DoesNotExist" />
+          <option value="watchlist_app.models.StreamPlatform.objects" />
+          <option value="watchlist_app.models.StreamPlatform.DoesNotExist" />
+          <option value="django.db.models.fields.related.ForeignKey.title" />
+          <option value="watchlist_app.models.Reviews.objects" />
+          <option value="rest_framework.authtoken.models.Token.objects" />
+          <option value="SchoolAdmin.models.Grade.*" />
+          <option value="SchoolAdmin.models.Subject.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
